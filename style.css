@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("images/background.jpg");
+}
+
+nav {
+    background-color: whitesmoke;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+nav li {
+    display: inline-block;
+	list-style: none;
+}
+
+nav li:hover {
+    transform: scale(1.1);
+    color: palevioletred;
+}
+
+nav a {
+    color: #DAA520	;
+    font-family: Georgia;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 0px 20px;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    /*background-color: rgba(250, 243, 234, 0.884);*/
+    background-color: rgba(245, 245, 245, 0.884);
+    margin: 20vh 0 14vh;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    height: auto;
+    width: 65vw;
+}
+
+.greeting {
+    margin-top: 10px;
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    font-size: 80px;
+}
+
+.generate {
+    border: none;
+    background-color: palevioletred;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    margin: 30px auto 10px;
+}
+
+.generate:hover{
+    background-color: white;
+    color: palevioletred;
+    cursor: pointer;
+}
+
+.love-letters{
+    color: rgb(129, 207, 233);
+    text-align: center;
+    border-left: 1px dashed lightblue;
+    padding: 10px;
+}
+
+.letters {
+    font-size: 30px;
+    margin-bottom: -5px;
+}
+
+hr {
+    background-color: rgb(129, 207, 233);
+    margin-bottom: -13px;
+    height: 1px;
+    border: none;
+}
+
+.name {
+    list-style: none;
+    font-size: 25px;
+    padding: 10px 0;
+    margin-left: -35px;
+}
+
+.name:hover {
+    background-color: aliceblue;
+    border-bottom: 1px solid rgb(129, 207, 233);
+    cursor: pointer;
+}
+
+.prompt {
+    font-size: 25px;
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 5px 5px 5px;
+    margin: 30px;
+    display: none;
+}
+
+.tresor {
+    background-color: rgb(250, 243, 234);
+    margin: 14vh 0;
+    padding: 20px;
+    height: auto;
+    width: 40vw;
+}
+
+.words {
+    font-size: 25px;
+}
+
+a {
+    color: rgb(129, 207, 233);
+    text-decoration: none;
+}
+
+img {
+    height: 300px;
+}
+
+.envelope {
+    position: relative;
+    text-align: center;
+}
+
+.envelope:hover {
+    cursor: pointer;
+}
+
+.envelopes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.envelopes a {
+    color: black;
+}
+
+.author {
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
