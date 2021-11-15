@@ -543,7 +543,6 @@ let prompts = ["Do you think you’ve failed yourself in one way or another?",
 
 function generate(){
     let num = Math.floor(Math.random()*543);
-    console.log(num);
     p.innerHTML = `${prompts[num]}`;
     p.style.display = 'block';
 }
